@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: gray;
 }
 
 h1 {
@@ -11,3 +11,27 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
+ul {
+	list-style-position:inside;
+}
+.vertical-menu {
+    width: 200px; 
+}
+
+.vertical-menu a {
+    background-color: gray; 
+    color: white; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: black; 
+}
+
+.vertical-menu a.active
+.vertical-menu a:hover {
+    background-color: gray; 
+    color: white;
+
