@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function test1(){
 
 	var fName = prompt("Hey what's your name?");
@@ -122,5 +121,4 @@ for ( var i = 1; i <= 100; i++ )
   {
     console.log(i);
   }
->>>>>>> parent of cbb0566... java
 }
