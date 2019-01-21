@@ -72,13 +72,3 @@ for(x=1; x <=6; x++)
  console.log(chr);
  chr='';    
 }
-
-
-function Encryption(){
-var chars = {'a':'b','b':'c','c':'a'};
-var enc;
-var str = "I love coding and editing on after effects";
-window.onload = function() {
-enc = str.replace(/[abc]/g, m => chars[m]);
-alert(enc);
-};
