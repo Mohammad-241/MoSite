@@ -73,6 +73,7 @@ for(x=1; x <=6; x++)
  chr='';    
 }
 
+
 function Encryption(){
 var chars = {'a':'b','b':'c','c':'a'};
 var enc;
