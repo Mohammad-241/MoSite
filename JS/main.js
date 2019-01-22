@@ -72,3 +72,28 @@ for(x=1; x <=6; x++)
  console.log(chr);
  chr='';    
 }
+
+
+/* 
+Guess the Number 
+*/
+
+function Guess() {
+    var rand = Math.floor((Math.random() * 1000));
+    var num = prompt("Guess a number between 1 and 1000.");
+
+    while(num != rand){
+        if(num > rand){
+            num=prompt("Too high, try again!");
+        }
+        else if(num < rand){
+            num=prompt("Too low, try again!");
+        }
+        else if(num == rand){
+            num=alert("You right");
+        }
+        else{
+            alert("Do you even Math, bro?");
+        }
+    }
+}
